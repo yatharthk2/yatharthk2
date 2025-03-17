@@ -4,9 +4,9 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=4F94EF&center=true&vCenter=true&width=435&lines=AI+%26+ML+Enthusiast;Full+Stack+Developer;Computer+Science+Graduate" alt="Typing SVG" />
 </div>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yatharth-kapadia/)
-[![X (Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/yatharth_k)
-[![Website](https://img.shields.io/badge/Website-4A154B?style=for-the-badge&logo=Safari&logoColor=white)](https://yourwebsite.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yatharthkapadia/)
+[![X (Twitter)](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/yatharthk2)
+[![Website](https://img.shields.io/badge/Website-4A154B?style=for-the-badge&logo=Safari&logoColor=white)](https://yatharthk.com/)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yatharth.k2@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yatharthk2)
 
@@ -103,8 +103,8 @@ const competencies = {
 
 - Email: yatharth.k2@outlook.com
 - Phone: +1 (930) 333-4182
-- [LinkedIn](https://www.linkedin.com/in/yatharth-kapadia/)
-- [Personal Website](https://yourwebsite.com)
+- [LinkedIn](https://www.linkedin.com/in/yatharthkapadia/)
+- [Personal Website](https://yatharthk.com/)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />

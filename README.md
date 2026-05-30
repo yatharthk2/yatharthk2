@@ -108,7 +108,6 @@ const competencies = {
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Let's Connect
 
 - Email: yatharth.k2@outlook.com
-- Phone: +1 (930) 333-4182
 - [LinkedIn](https://www.linkedin.com/in/yatharthkapadia/)
 - [Personal Website](https://yatharthk.com/)
 

@@ -81,12 +81,7 @@ const competencies = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="800" />
-</div>
-
-<div align="center">
-  <img src="./github-metrics-languages.svg" alt="Top Languages" width="400" />
-  <img src="./github-metrics-achievements.svg" alt="Achievements" width="400" />
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="900" />
 </div>
 
 ## 🌱 Currently Learning

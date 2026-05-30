@@ -81,16 +81,12 @@ const competencies = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yatharthk2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="400" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yatharthk2&theme=tokyonight&hide_border=true" width="400" />
+  <img src="./github-metrics.svg" alt="GitHub Metrics" width="800" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yatharthk2&layout=compact&theme=tokyonight&hide_border=true" width="400" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yatharthk2&theme=algolia&no-frame=true&row=1&column=7" width="800" />
+  <img src="./github-metrics-languages.svg" alt="Top Languages" width="400" />
+  <img src="./github-metrics-achievements.svg" alt="Achievements" width="400" />
 </div>
 
 ## 🌱 Currently Learning
@@ -107,7 +103,7 @@ const competencies = {
 - [Personal Website](https://yatharthk.com/)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <img src="https://raw.githubusercontent.com/yatharthk2/yatharthk2/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
 
 ---

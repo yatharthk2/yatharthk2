@@ -1,4 +1,4 @@
-name: Refresh README cards
+name: Refresh README assets
 
 on:
   schedule:
@@ -12,48 +12,39 @@ permissions:
   contents: write
 
 jobs:
-  cards:
+  streak:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch cards
+      - name: Fetch streak card
         run: |
           mkdir -p cards
-          fetch() {
-            local url="$1"
-            local output="$2"
-            local tmp
-            tmp="$(mktemp)"
-            for attempt in 1 2 3; do
-              if curl -fsSL --max-time 45 -o "$tmp" "$url" \
-                && head -c 1000 "$tmp" | grep -q '<svg' \
-                && ! grep -q 'Something went wrong' "$tmp"; then
-                mv "$tmp" "$output"
-                echo "refreshed $output"
-                return 0
-              fi
-              echo "attempt $attempt failed for $output, retrying..."
-              sleep 10
-            done
-            echo "all attempts failed for $output; keeping existing copy"
-            rm -f "$tmp"
-          }
-
-          fetch "https://github-readme-stats.vercel.app/api?username=yatharthk2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" "cards/stats.svg"
-          fetch "https://github-readme-streak-stats.herokuapp.com/?user=yatharthk2&theme=tokyonight&hide_border=true" "cards/streak.svg"
-          fetch "https://github-readme-stats.vercel.app/api/top-langs/?username=yatharthk2&layout=compact&theme=tokyonight&hide_border=true" "cards/top-langs.svg"
-          fetch "https://github-profile-trophy.vercel.app/?username=yatharthk2&theme=algolia&no-frame=true&row=1&column=7" "cards/trophy.svg"
+          tmp="$(mktemp)"
+          for attempt in 1 2 3; do
+            if curl -fsSL --max-time 45 -o "$tmp" \
+              "https://github-readme-streak-stats.herokuapp.com/?user=yatharthk2&theme=tokyonight&hide_border=true" \
+              && head -c 1000 "$tmp" | grep -q '<svg' \
+              && ! grep -q 'Something went wrong' "$tmp"; then
+              mv "$tmp" cards/streak.svg
+              echo "refreshed cards/streak.svg"
+              exit 0
+            fi
+            echo "attempt $attempt failed, retrying..."
+            sleep 10
+          done
+          echo "all attempts failed; keeping existing cards/streak.svg"
+          rm -f "$tmp"
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cards
+          git add cards/streak.svg
           if git diff --staged --quiet; then
             echo "no changes"
           else
-            git commit -m "chore: refresh README cards"
+            git commit -m "chore: refresh streak card"
             git push
           fi
 

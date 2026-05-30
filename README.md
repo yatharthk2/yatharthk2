@@ -81,7 +81,16 @@ const competencies = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="./github-metrics.svg" alt="GitHub Metrics" width="900" />
+  <img src="https://github-readme-stats-yatharth-s-projects1.vercel.app/api?username=yatharthk2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="400" />
+  <img src="./cards/streak.svg" alt="GitHub Streak" width="400" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats-yatharth-s-projects1.vercel.app/api/top-langs/?username=yatharthk2&layout=compact&theme=tokyonight&hide_border=true" width="400" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy-tan-three.vercel.app/?username=yatharthk2&theme=algolia&no-frame=true&row=1&column=7" width="800" />
 </div>
 
 ## 🌱 Currently Learning

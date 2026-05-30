@@ -16,28 +16,21 @@
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> About Me
 
-Founding Engineer at [Moss](https://www.usemoss.dev/) building real-time hybrid search in Rust + Python — the core SDK now powers **300k+ downloads** with a **4ms P99** latency on the hybrid search path. MS in Computer Science from Indiana University Bloomington (May 2025). Previously shipped agentic systems at Haldune, hardened LLM security at Kelley's DSAIL, and built a GPU-backed speech-to-speech stack at Outspeed. I care most about performance engineering, vector search, and turning research into shippable infrastructure.
+Founding Engineer at [Moss](https://www.usemoss.dev/), working on real-time hybrid search and voice AI infrastructure. MS in Computer Science from Indiana University Bloomington (May 2025). Previously at Haldune, Kelley DSAIL, and Outspeed. I care most about performance engineering, vector search, and turning research into shippable infrastructure.
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> Experience
 
-- **Founding Engineer (Core Team)** at [Moss](https://www.usemoss.dev/) (Oct 2025 – Present, San Francisco)
-  - Built the Rust-to-Python hybrid search engine (BM25 + semantic via alpha blending), shipped at **4ms P99**, now powering **300k+ SDK downloads**
-  - Accelerated the semantic path with SIMD vectorization and Rayon parallelization; engineered Rust→JS bindings making the SDK **3× faster** than the legacy pure-JS implementation
-  - Drove the voice AI vertical: shipped a LiveKit-based [Voice Agent Manager](https://pypi.org/project/moss-voice-agent-manager/) and [Pipecat-Moss](https://pypi.org/project/pipecat-moss/) — closed a paying customer on the new product line
+- **Founding Engineer (Core Team)** at [Moss](https://www.usemoss.dev/) — Oct 2025 – Present, San Francisco
+  - Building real-time hybrid search infrastructure and voice AI tooling for the developer ecosystem.
 
-- **Software Developer** at [Haldune](https://www.haldune.com/) (Jun 2025 – Oct 2025, Chicago)
-  - Architected a multi-agent "Deep Research" workflow on Azure AI Foundry (Microsoft AutoGen, fan-out/fan-in) that cut report generation time **70%** — 10 min → under 3
-  - Deployed ChromaDB-backed retrieval as a FastAPI microservice on Kubernetes — sub-100ms lookups over a 1,000-document corpus
-  - Built real-time multi-speaker conversational AI on Azure Speech SDK + LiveKit at **600ms latency** with 15 concurrent users
+- **Software Developer** at [Haldune](https://www.haldune.com/) — Jun 2025 – Oct 2025, Chicago
+  - Worked on agentic systems and real-time conversational AI.
 
-- **Research Assistant** at [Kelley DSAIL](https://dsail.kelley.iu.edu/) (Mar 2024 – Dec 2024, Bloomington)
-  - Red-teamed LLMs with Nvidia Garak, Microsoft Counterfit, and Purple Llama; reported 5+ vulnerabilities
-  - Implemented Nvidia NeMo guardrails that cut attack success rate **60%** across the test suites
+- **Research Assistant** at [Kelley DSAIL](https://dsail.kelley.iu.edu/) — Mar 2024 – Dec 2024, Bloomington
+  - LLM security research — red-teaming and guardrail design.
 
-- **Software Engineer Intern** at [Outspeed](https://www.outspeed.com/) (Jun 2024 – Aug 2024, San Francisco)
-  - Architected a GPU-backed speech-to-speech stack (Whisper → Llama 3.1 → Parler TTS) on AWS EKS, load-tested to **50 connections/min**
-  - Fine-tuned Llama-3.1-8B with QLoRA on Chatbot Arena + Orca; brought system latency to **p95 800ms**
-  - Slashed inference costs **~30%** at ≤6% quality drop by replacing API calls with a self-hosted **vLLM** stack on A10G GPUs
+- **Software Engineer Intern** at [Outspeed](https://www.outspeed.com/) — Jun 2024 – Aug 2024, San Francisco
+  - Built a GPU-backed speech-to-speech stack and worked on LLM fine-tuning for real-time applications.
 
 ## <img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="35"> Tech Stack
 
@@ -74,7 +67,7 @@ Founding Engineer at [Moss](https://www.usemoss.dev/) building real-time hybrid 
 
 ```javascript
 const competencies = {
-  "Performance Engineering": ["Rust + SIMD", "Rayon parallelization", "Rust↔Python/JS bindings", "P99 latency tuning"],
+  "Performance Engineering": ["Rust", "Cross-language bindings", "Latency optimization", "Concurrency"],
   "Search & Retrieval":      ["Hybrid (BM25 + semantic)", "Vector databases", "HyDE / RAG", "Knowledge graphs"],
   "AI Systems":              ["LLM fine-tuning (QLoRA)", "Multi-agent orchestration", "Voice agents (LiveKit)", "LLM red-teaming"],
   "Infrastructure":          ["Kubernetes (EKS)", "FastAPI microservices", "vLLM serving", "Real-time WebSockets"],
@@ -108,7 +101,7 @@ const competencies = {
 
 ## 🌱 Currently Learning
 
-- Rust performance engineering — SIMD, lock-free data structures, profiling
+- Rust performance engineering — profiling, concurrency, low-latency patterns
 - Vector search at scale — quantization, ANN indexes, hybrid retrieval tuning
 - Voice AI — sub-second latency pipelines and naturalness optimization
 
